@@ -1,1 +1,63 @@
-/* Write your code here. */
+.navbar {
+  background-image: linear-gradient(to right, #6a59ff, #9796f0);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media screen and (min-width: 768px) {
+  .navbar {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 7vh;
+  }
+}
+@media screen and (min-width: 992px) {
+  .navbar {
+    height: 10vh;
+  }
+}
+.emoji-logo {
+  width: 25px;
+  height: 30px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.score {
+  color: white;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.top-score {
+  color: white;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.emoji-game {
+  color: #ffffff;
+  font-weight: 500;
+}
+.score-container {
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .emoji-logo {
+    width: 40px;
+    height: 45px;
+  }
+  .emoji-game {
+    font-size: 20px;
+  }
+  .score {
+    font-size: 20px;
+  }
+  .top-score {
+    font-size: 20px;
+  }
+}

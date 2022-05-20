@@ -1,1 +1,42 @@
-/* Write your code here. */
+.emoji-img {
+  width: 45px;
+  height: 45px;
+}
+.emoji-button {
+  background-color: transparent;
+  border-width: 0;
+}
+.list-item {
+  border: 2px solid #ffffff33;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #ffffff30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item {
+    width: 22%;
+    height: 13vh;
+  }
+
+  .emoji-img {
+    width: 75px;
+    height: 75px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .list-item {
+    width: 17%;
+    height: 15vh;
+  }
+  .emoji-img {
+    width: 50px;
+    height: 50px;
+  }
+}
