@@ -32,15 +32,18 @@
   color: white;
   font-weight: 500;
   margin-left: 20px;
+  font-size: 16px;
 }
 .top-score {
   color: white;
   font-weight: 500;
   margin-left: 20px;
+  font-size: 16px;
 }
 .emoji-game {
   color: #ffffff;
   font-weight: 500;
+  font-size: 16px;
 }
 .score-container {
   display: flex;
