@@ -12,7 +12,7 @@ const WinOrLoseCard = props => {
           <div className="lose-score-container">
             <img
               src="https://assets.ccbp.in/frontend/react-js/lose-game-img.png"
-              alt="game-lost"
+              alt="win or lose"
               className="lost-img"
             />
             <div className="for-medium-device-container">
@@ -37,7 +37,7 @@ const WinOrLoseCard = props => {
           <div className="lose-score-container">
             <img
               src="https://assets.ccbp.in/frontend/react-js/won-game-img.png"
-              alt="game-won"
+              alt="win or lose"
               className="lost-img"
             />
             <div className="for-medium-device-container">

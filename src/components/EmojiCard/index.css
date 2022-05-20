@@ -5,6 +5,7 @@
 .emoji-button {
   background-color: transparent;
   border-width: 0;
+  cursor: pointer;
 }
 .list-item {
   border: 2px solid #ffffff33;
@@ -16,7 +17,6 @@
   justify-content: center;
   width: 90px;
   height: 90px;
-  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
